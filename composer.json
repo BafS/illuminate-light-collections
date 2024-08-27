@@ -1,0 +1,15 @@
+{
+    "name": "bafs/illuminate-light-collections",
+    "description": "Illuminate collection, without hundreds of Illuminate contracts",
+    "license": "MIT",
+    "require": {
+        "illuminate/collections": "^11.0"
+    },
+    "autoload": {
+        "classmap": ["Contracts/Support/"]
+    },
+    "replace": {
+        "illuminate/contracts": "*"
+    },
+    "minimum-stability": "dev"
+}
